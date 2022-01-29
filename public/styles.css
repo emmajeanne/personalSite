@@ -69,7 +69,7 @@ body {
   font-family: degular-display, sans-serif;
   font-size: 5vw;
   color: #F2FEDC;
-  line-height: 52%;
+  line-height: 50%;
   vertical-align: top;
   margin-left: 0;
 }
@@ -116,7 +116,7 @@ body {
 .workflower {
   width: 34%;
   left: 60%;
-  top: 7%;
+  top: 6%;
   transform: rotateZ(-15deg);
 }
 
@@ -149,5 +149,6 @@ body {
 
   .logo {
     width: 99%;
+    margin-top: .7%
   }
 }
