@@ -5,10 +5,12 @@ body {
 .container {
   width: 100vw;
   overflow: hidden;
+  text-align: center;
 }
 
 .section {
   width: 100%;
+
 }
 
 .inline {
@@ -75,8 +77,9 @@ body {
 .headerCopy {
   vertical-align: middle;
   margin-top: 7%;
-  margin-left: -.35%;
+  margin-left: -2.4%;
   padding-right: 2%;
+  text-align: left;
 }
 
 /* ---->navbar */
