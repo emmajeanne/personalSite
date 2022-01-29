@@ -31,6 +31,7 @@ body {
 .logo {
   width: 40%;
   position: relative;
+      margin-top: .7%
 }
 
 .logoImg {
@@ -149,6 +150,6 @@ body {
 
   .logo {
     width: 99%;
-    margin-top: .7%
+
   }
 }
