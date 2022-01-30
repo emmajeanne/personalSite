@@ -86,7 +86,7 @@ body {
 /* ---->navbar */
 .navbar {
   width: 50%;
-  height: 21vw;
+  height: 21.5vw;
   position: relative;
 }
 
@@ -152,4 +152,27 @@ body {
     width: 99%;
 
   }
+}
+
+/* LANDING */
+.introLeft{
+  width: 55%;
+  text-align: left;
+  font-family: degular-display, sans-serif;
+  background-color: #1B3D2F;
+  color: #F2FEDC;
+  font-size: 2.7vw;
+  line-height: 115%;
+}
+
+.introHeader{
+padding: 4.5% 13% 4.5% 0;
+}
+
+
+
+
+.introRight{
+  width: 44%;
+  color: #1B3D2F;
 }
