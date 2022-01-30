@@ -155,14 +155,20 @@ body {
 }
 
 /* LANDING */
+
+#landing{
+    font-family: degular-display, sans-serif;
+}
+
 .introLeft{
   width: 55%;
   text-align: left;
-  font-family: degular-display, sans-serif;
   background-color: #1B3D2F;
   color: #F2FEDC;
   font-size: 2.7vw;
   line-height: 115%;
+  margin-top: 0;
+  vertical-align: top;
 }
 
 .introHeader{
@@ -170,9 +176,28 @@ padding: 4.5% 13% 4.5% 0;
 }
 
 
-
-
 .introRight{
   width: 44%;
-  color: #1B3D2F;
+  color: #E0512B;
+
+  padding-top: 2%;
+}
+
+.landingarrow{
+  width: 85%;
+  padding-left: 7.5%;
+
+}
+
+img.landingarrow{
+  width: 100%;
+}
+
+.clickAboveTxt{
+  margin: 0;
+  text-align: center;
+  font-size: 4.5vw;
+  line-height: 57%;
+padding: 5% 7.5% 0 7.5%;
+
 }
