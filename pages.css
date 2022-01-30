@@ -1,0 +1,58 @@
+body{
+    background-color: #F2FEDC;
+    text-align: center;
+    margin: 0;
+}
+
+#header{
+  background-color: #1B3D2F;
+position: relative;
+height: 5.5vw;
+margin: 0;
+}
+
+.headerAssset{
+position: absolute;
+  display: inline-block;
+vertical-align: middle;
+}
+
+
+.contact{
+  width: 10vw;
+left: 1%;
+bottom: 15%;
+
+}
+
+.logo{
+  width: 20vw;
+  left: 40%;
+  top: 15%
+}
+
+.work{
+  bottom: 15%;
+right: 1%;
+    width: 10vw;
+}
+
+.contactPic{
+max-width: 100%;
+}
+
+.logoPic{
+max-width: 100%;
+}
+
+.workPic{
+max-width: 100%;
+}
+
+.hover{
+    transition: .3s ease;
+}
+
+.hover:hover{
+  transform: scale(115%);
+}
