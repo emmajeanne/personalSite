@@ -1,0 +1,102 @@
+body{
+    background-color: #F2FEDC;
+    text-align: center;
+    margin: 0;
+}
+
+#header{
+  background-color: #1B3D2F;
+position: relative;
+height: 5.5vw;
+margin: 0;
+}
+
+.headerAssset{
+position: absolute;
+  display: inline-block;
+vertical-align: middle;
+}
+
+
+.contact{
+  width: 10vw;
+left: 1%;
+bottom: 15%;
+
+}
+
+.logo{
+  width: 20vw;
+  left: 40%;
+  top: 15%
+}
+
+.work{
+  bottom: 15%;
+right: 1%;
+    width: 10vw;
+}
+
+.contactPic{
+max-width: 100%;
+}
+
+.logoPic{
+max-width: 100%;
+}
+
+.workPic{
+max-width: 100%;
+}
+
+.hover{
+    transition: .3s ease;
+}
+
+.hover:hover{
+  transform: scale(115%);
+}
+
+#main{
+  margin-top: 0;
+  width: 100%;
+  background-image: url("emma.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+height:43vw;
+background-position: 0 5%;
+background-size: 70%;
+}
+
+.container{
+  width: 40%;
+position: relative;
+
+}
+
+.aboutmeDiv{
+height: 26vw;
+width: 87%;
+background-color: #E0512B;
+position: absolute;
+left: 58vw;
+margin-top: 23%;
+}
+
+.aboutmeHeader{
+  position: absolute;
+  top: -22.5%;
+right: 10.45vw;
+width: 75%;
+}
+
+.aboutmeBlurb{
+    font-family: degular-text, sans-serif;
+    color: #F2FEDC;
+    margin-top: 0;
+    padding: 20% 12% 0 12%;
+    font-size: 1.6vw;
+    text-align: justify;
+    line-height: 1.4vw;
+    font-weight: 600;
+}

@@ -1,16 +1,18 @@
 body {
   background-color: #F2FEDC;
+  margin: 0;
 }
 
 .container {
   width: 100vw;
   overflow: hidden;
   text-align: center;
+  margin: 0;
 }
 
 .section {
   width: 100%;
-
+  margin: 0;
 }
 
 .inline {
@@ -24,6 +26,9 @@ body {
 /* HEADER */
 #header {
   transition: .3s ease;
+    margin: 0;
+    padding-top: .5%;
+        text-align: right;
 }
 
 /* --->HEADER LEFT */
@@ -31,7 +36,7 @@ body {
 .logo {
   width: 40%;
   position: relative;
-      margin-top: .7%
+  margin-top: 0;
 }
 
 .logoImg {
@@ -62,6 +67,9 @@ body {
   width: 59%;
   background-color: #E0512B;
   vertical-align: top;
+    padding-top: .5%;
+    margin-top: 0;
+
 }
 
 /* ----->blurb */
@@ -158,10 +166,12 @@ body {
 
 #landing{
     font-family: degular-display, sans-serif;
+      margin: 0;
+      text-align: left;
 }
 
 .introLeft{
-  width: 55%;
+  width: 54%;
   text-align: left;
   background-color: #1B3D2F;
   color: #F2FEDC;
@@ -169,6 +179,7 @@ body {
   line-height: 115%;
   margin-top: 0;
   vertical-align: top;
+
 }
 
 .introHeader{
@@ -177,7 +188,7 @@ padding: 4.5% 13% 4.5% 0;
 
 
 .introRight{
-  width: 44%;
+  width: 45.5%;
   color: #E0512B;
 
   padding-top: 2%;
@@ -198,6 +209,6 @@ img.landingarrow{
   text-align: center;
   font-size: 4.5vw;
   line-height: 57%;
-padding: 4.5% 7.5% 0 7.5%;
+padding: 3% 7.5% 0 7.5%;
 
 }
