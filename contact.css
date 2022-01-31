@@ -187,13 +187,13 @@ div.contactTxt img{
 background-color:  #F2FEDC;
 width: 30vw;
 height: 8vw;
-margin-left: 9.5vw;
 margin-top: 2.5vw;
   transition: .3s ease;
   overflow: hidden;
 border-width: .3vw;
 border-style: solid;
 border-color: #1B3D2F;
+display: inline-block;
 }
 
 .contactButton:hover{
@@ -239,7 +239,7 @@ opacity: 0;
   font-family: degular-text, sans-serif;
   color: #F2FEDC;
   text-align: center;
-margin-top: 3vw;
+margin-top: 4vw;
   font-size:1.8vw;
   letter-spacing: .5vw;
 }
