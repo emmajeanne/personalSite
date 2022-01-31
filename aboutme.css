@@ -108,6 +108,7 @@ position: relative;
 }
 
 .aboutmeDiv{
+  display: inline-block;
 height: 28vw;
 width: 87%;
 background-color: #E0512B;
