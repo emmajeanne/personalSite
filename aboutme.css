@@ -108,18 +108,18 @@ position: relative;
 }
 
 .aboutmeDiv{
-height: 26vw;
+height: 28vw;
 width: 87%;
 background-color: #E0512B;
 position: absolute;
 left: 58vw;
-margin-top: 23%;
+margin-top: 20%;
 }
 
 .aboutmeHeader{
   position: absolute;
-  top: -22.5%;
-right: 10.45vw;
+  top: -21%;
+right: 21.5vw;
 width: 75%;
 }
 
@@ -127,11 +127,12 @@ width: 75%;
     font-family: degular-text, sans-serif;
     color: #F2FEDC;
     margin-top: 0;
-    padding: 20% 12% 0 12%;
+    padding: 9% 12% 0 12%;
     font-size: 1.6vw;
     text-align: justify;
     line-height: 1.4vw;
-    font-weight: 600;
+    letter-spacing: .2vw;
+
 }
 
 /* media query */
