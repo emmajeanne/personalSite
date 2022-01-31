@@ -31,6 +31,24 @@ bottom: 15%;
   top: 15%
 }
 
+.flower {
+  position: absolute;
+  width: 14.5%;
+margin-top: -19%;
+  left: 17%;
+  animation: Oflower 12s infinite linear;
+}
+
+@keyframes Oflower {
+  from {
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
 .work{
   bottom: 15%;
 right: 1%;
@@ -99,4 +117,11 @@ width: 75%;
     text-align: justify;
     line-height: 1.4vw;
     font-weight: 600;
+}
+
+/* media query */
+@media screen and (max-width: 700px) {
+#main{
+  height: 80vw;
+}
 }

@@ -2,13 +2,47 @@ body{
     background-color: #F2FEDC;
     text-align: center;
     margin: 0;
+
 }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#animatedBackground {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("./public/contactBack.svg");
+  background-repeat: repeat;
+  background-position: 0 0;
+  background-size: 33% 99.55vw;
+
+  animation: animatedBackground 60s linear infinite;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+/*use negative width if you want it to flow right to left else and positive for left to right*/
+  to {
+    background-position:  0 99vw;
+  }
+}
+
 
 #header{
   background-color: #1B3D2F;
 position: relative;
 height: 5.5vw;
 margin: 0;
+
 }
 
 .headerAssset{
@@ -29,6 +63,26 @@ bottom: 15%;
   width: 20vw;
   left: 40%;
   top: 15%
+}
+
+.flower {
+  position: absolute;
+  width: 14.5%;
+
+bottom: .7vw;
+  left: 17%;
+  padding: 0;
+  animation: Oflower 12s infinite linear;
+}
+
+@keyframes Oflower {
+  from {
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
 }
 
 .work{
@@ -55,4 +109,11 @@ max-width: 100%;
 
 .hover:hover{
   transform: scale(115%);
+}
+
+
+/* LANDING */
+
+#landing{
+
 }
