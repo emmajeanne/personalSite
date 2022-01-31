@@ -4,45 +4,49 @@ body{
     margin: 0;
 }
 
-#header{
-  background-color: #1B3D2F;
-
-height: 6vw;
-margin: 0;
-
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.headerAssset{
-  margin-top: 1%;
+.inline {
   display: inline-block;
-vertical-align: middle;
 }
 
 
-.leftArrow{
+#header {
+  background-color: #1B3D2F;
+  height: 6vw;
+  margin: 0;
+}
 
+.headerAssset {
+  margin-top: 1%;
+  vertical-align: middle;
+}
+
+.leftArrow {
   width: 24vw;
-      height: 3vw;
+  height: 3.3vw;
   text-align: left;
-
-
+  margin-left: -1%;
 }
 
-.logo{
+.logo {
   width: 50vw;
   height: 4vw;
-text-align: center;
-position: relative;
+  text-align: center;
+  position: relative;
 }
 
-
-.rightArrow{
-
-width: 24vw;
-  height: 3vw;
-text-align: right;
+.rightArrow {
+  width: 24vw;
+  height: 3.3vw;
+  text-align: right;
+  margin-right: -1%;
 }
-
 
 .flower {
   position: absolute;
@@ -63,28 +67,38 @@ text-align: right;
   }
 }
 
-.leftPic{
-max-width: 100%;
-max-height: 100%;
-margin-left: 1vw;
+.leftPic {
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 0;
+  transition: .5s ease;
 }
 
-.logoPic{
-max-width: 100%;
-max-height: 100%;
+.leftPic:hover {
+  margin-left: 4%;
 }
 
-.rightPic{
-    margin-right: 1vw;
-max-width: 100%;
-height: 100%;
+.logoPic {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.hover{
-    transition: .3s ease;
+.rightPic {
+  margin-right: 0;
+  max-width: 100%;
+  height: 100%;
+  transition: .5s ease;
 }
 
-.hover:hover{
+.rightPic:hover {
+  margin-right: 4%;
+}
+
+.hover {
+  transition: .3s ease .3;
+}
+
+.hover:hover {
   transform: scale(110%);
 }
 
