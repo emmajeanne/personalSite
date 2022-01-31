@@ -127,7 +127,8 @@ body {
 
 /* LANDING */
 #main {
-  width: 100%
+  width: 100%;
+
 }
 
 /* contact block */
@@ -138,6 +139,7 @@ body {
   position: absolute;
   left: 26%;
   margin-top: 5%;
+
 }
 
 .contactHeader {
@@ -179,4 +181,65 @@ div.contactTxt img{
   width: 15vw;
   vertical-align: middle;
   margin-top: 2.5%;
+}
+
+.contactButton{
+background-color:  #F2FEDC;
+width: 30vw;
+height: 8vw;
+margin-left: 9.5vw;
+margin-top: 2.5vw;
+  transition: .3s ease;
+  overflow: hidden;
+border-width: .3vw;
+border-style: solid;
+border-color: #1B3D2F;
+}
+
+.contactButton:hover{
+  transform: scale(103%);
+}
+
+.btnTxt{
+  font-family: degular-display, sans-serif;
+  color: #1B3D2F;
+  font-size: 3vw;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  transition: 1s ease;
+  width: 36vw;
+}
+
+.contactButton:hover .btnTxt{
+margin-left: -3vw;
+}
+
+a{
+  text-decoration: none;
+}
+
+.orTwo{
+opacity: 0;
+
+
+}
+
+.contactButton:hover .orTwo{
+  animation: fadeIn .3s;
+      animation-delay: .5s;
+      animation-fill-mode: forwards;
+  }
+
+  @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+  }
+
+.email{
+  font-family: degular-text, sans-serif;
+  color: #F2FEDC;
+  text-align: center;
+margin-top: 3vw;
+  font-size:1.8vw;
+  letter-spacing: .5vw;
 }

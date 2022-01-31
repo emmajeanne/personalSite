@@ -32,6 +32,7 @@ vertical-align: middle;
   width: 50vw;
   height: 4vw;
 text-align: center;
+position: relative;
 }
 
 
@@ -45,10 +46,10 @@ text-align: right;
 
 .flower {
   position: absolute;
-  width: 3%;
-  left: 43.1vw;
+  width: 6%;
+  left: 18vw;
   padding: 0;
-  top: 1.4vw;
+  bottom: .5vw;
   animation: Oflower 12s infinite linear;
 }
 
