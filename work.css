@@ -2,7 +2,9 @@ body{
     background-color: #F2FEDC;
     text-align: center;
     margin: 0;
+    overflow: hidden;
 }
+
 
 html,
 body {
@@ -101,57 +103,74 @@ body {
 .hover:hover {
   transform: scale(110%);
 }
+/* DISCO */
 
+.discoBack{
+  position: absolute;
+  width: 100%;
+ }
+
+.discoImg {
+  display: inline-block;
+  width: 30vw;
+}
+
+.discoImgL {
+  margin: 0 25vw 0 -6vw;
+  transform: scaleX(-1);
+  
+}
+
+.discoImgR {
+  margin: 0 -6vw 0 25vw;
+}
 
 /* CONDOM */
 
 .condom{
-    width: 100vw;
-    margin: 2vw 0 0 0;
+    width: 80vw;
+    margin: 2vw 0 0 10vw;
+    
    
 }
 
 .condomCaption{
-    vertical-align: middle;
     background-color: #E0512B;
     display: inline-block;
-    width: 29%;
-    height: 35.6vw;
-    text-align:left;
+    width: 20%;
+    height: 26.5vw;
     color: #F2FEDC;
-    margin: 0;
-
+    text-align: left;
+    padding: 1vw;
  
 }
 
 .condomTitle {
     font-family: degular-display, sans-serif;
-    padding: 1vw 3vw 0 1vw;
-    font-size: 4vw;
-    line-height:3vw;
-    margin-top: 0;
+    font-size: 3.3vw;
+    line-height:2.9vw;
+    margin: 0;
+
   
 }
 
 .condomBlurb {
-    padding: 0 3vw 1vw 1vw;
-    margin-top: 0;
     font-size: 1.3vw;
-    font-family: degular-text, sans-serif;
+    font-family: degular-text, sans-serif
 }
 
 .condomSpan {
-    font-size: 3.2vw;
+    font-size: 2.8vw;
     font-family: degular-text, sans-serif;
 }
 
 .condomPic {
-    vertical-align: middle;
     display: inline-block;
     width: 69%;
-    margin: 0;
+    vertical-align: top;
 }
 
 div.condomPic img {
-    max-width: 100%;
+    max-width: 100%
+
 }
