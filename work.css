@@ -2,7 +2,7 @@ body{
     background-color: #F2FEDC;
     text-align: center;
     margin: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -129,7 +129,7 @@ body {
 
 .condom{
     width: 80vw;
-    margin: 2vw 0 0 10vw;
+    margin: 4vw 0 0 10vw;
     
    
 }
@@ -173,4 +173,43 @@ body {
 div.condomPic img {
     max-width: 100%
 
+}
+
+/* LOGOS */
+
+.logos{
+  width: 100vw;
+display: inline-block;
+}
+
+.logoHeading {
+ 
+  font-family: degular-display, sans-serif;
+    font-size: 3.3vw;
+}
+
+.logoHeading h1 {
+  margin-bottom: 1vw;
+}
+
+.logoHeading Img {
+  width: 45vw;
+  transform: scaleY(-1);
+  margin: 0 0 2vw 0;
+}
+
+@supports (-webkit-text-stroke: 3px #1B3D2F) {
+  .logoHeading h1 {
+    -webkit-text-stroke: 3px #1B3D2F;
+    -webkit-text-fill-color: #F2FEDC;
+  }
+}
+
+.logoBack{
+  display: inline-block;
+  width: 90vw;
+  height: 45vw;
+  background-image: url(https://raw.githubusercontent.com/emmajeanne/personalSite/eb37dd5607faae599ef49747a07399a779e2c58f/public/LogoBack.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
