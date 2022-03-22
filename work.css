@@ -208,8 +208,37 @@ display: inline-block;
 .logoBack{
   display: inline-block;
   width: 90vw;
-  height: 45vw;
+  height: 46vw;
   background-image: url(https://raw.githubusercontent.com/emmajeanne/personalSite/eb37dd5607faae599ef49747a07399a779e2c58f/public/LogoBack.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.logoWorkspace {
+  width: 68vw;
+  height: 40.3vw;
+  margin: 5.7vw 0 0 5.2vw;
+  overflow: auto;
+  text-align: left;
+}
+
+.logoImgs {
+  width: 85vw;
+}
+
+.workspaceImg {
+  width: 35%;
+}
+
+.discoOne {
+  margin: 3vw 16vw 8vw 3vw
+}
+
+.discoTwo {
+  margin: 0 0 8vw 3vw;
+  padding-top: 3vw;
+}
+
+.discoThree {
+  margin: 0 10vw 3vw 10vw
 }
