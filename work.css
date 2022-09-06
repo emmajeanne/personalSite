@@ -198,9 +198,9 @@ display: inline-block;
   margin: 0 0 2vw 0;
 }
 
-@supports (-webkit-text-stroke: 3px #1B3D2F) {
+@supports (-webkit-text-stroke: .2vw #1B3D2F) {
   .logoHeading h1 {
-    -webkit-text-stroke: 3px #1B3D2F;
+    -webkit-text-stroke: .2vw #1B3D2F;
     -webkit-text-fill-color: #F2FEDC;
   }
 }
@@ -244,6 +244,79 @@ display: inline-block;
   margin: 0 10vw 3vw 10vw
 }
 
-.matcha img {
-  max-width: 20vw;
+
+/* INSTA STORIES */
+
+.Insta{
+  margin-top: 2vw;
+}
+
+.instaHeader{
+  font-family: degular-display, sans-serif;
+    font-size: 2vw;
+    color: #1B3D2F;
+    width: 100%;
+    margin-bottom: 3vw;
+    
+}
+
+.instaHeader h1{
+  display: inline-block;
+  width: 70vw;
+}
+
+.LDarrow {
+  display: inline-block;
+  width:10vw;
+  vertical-align: bottom;
+}
+
+.RDarrow {
+  display: inline-block;
+  width:10vw;
+  transform: scaleX(-1);
+  vertical-align: bottom;
+}
+
+.iphone {
+display: inline-block;
+width: 22vw;
+display: inline-flex;
+justify-content: center;
+
+}
+
+.iphoneOne {
+  background-image: url('https://raw.githubusercontent.com/emmajeanne/personalSite/a9e0d4197ee21fc450ddec5142e31123283dacbf/public/iphone4.svg');
+  background-repeat: no-repeat;
+  background-size: fill;
+}
+
+.iphoneTwo {
+  background-image: url('https://raw.githubusercontent.com/emmajeanne/personalSite/a9e0d4197ee21fc450ddec5142e31123283dacbf/public/iphone3.svg');
+  background-repeat: no-repeat;
+  background-size: fill;
+}
+
+.iphoneThree {
+  background-image: url('https://raw.githubusercontent.com/emmajeanne/personalSite/a9e0d4197ee21fc450ddec5142e31123283dacbf/public/iphone2.svg');
+  background-repeat: no-repeat;
+  background-size: fill;
+}
+
+.iphoneFour {
+  background-image: url('https://raw.githubusercontent.com/emmajeanne/personalSite/a9e0d4197ee21fc450ddec5142e31123283dacbf/public/iphone1.svg');
+  background-repeat: no-repeat;
+  background-size: fill;
+}
+
+.instaStory {
+  width: 75%;
+  padding: 7vw .5vw 6vw 0;
+
+}
+
+.instaStory img {
+  max-width: 100%;
+  border-radius: 2%;
 }
